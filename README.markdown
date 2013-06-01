@@ -14,19 +14,23 @@ Installation
 
 2. Update your __app/config/config.yml__ file and add this
 
-```twig:
+```
+twig:
      form:
          resources:
-             - 'CodepeakLinkedCheckboxBundle:Form:fields.html.twig'```
+             - 'CodepeakLinkedCheckboxBundle:Form:fields.html.twig'
+```
 
 3. Empty the cache and add the new field to your form
 
-```->add('tos', new LinkedCheckboxType(), array(
+```
+->add('tos', new LinkedCheckboxType(), array(
     'link_text' => 'I agree to the %link_start%terms of service%link_end%',  // Text can be translated
     'link_class' => 'custom_class(es)-set-on-the-<a>-tag',					 // Class(es) to be placed on the link
     'route' => 'codepeak_user_terms',										 // Route on where to link
     'mapped' => false														 // Don't map against Entity
-))``` 
+))
+``` 
 
 Changelog
 ---------
