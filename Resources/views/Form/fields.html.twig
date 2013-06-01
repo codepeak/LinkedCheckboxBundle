@@ -1,0 +1,14 @@
+{% block linkedcheckbox_widget %}
+    {% spaceless %}
+        <label>
+            <input type="checkbox" {{ block('widget_attributes') }}{% if value is defined %} value="{{ value }}"{% endif %}{% if checked %} checked="checked"{% endif %} />
+            {% if route %}
+                {% if link_text %}
+                    {{ link_text | trans({'%link_start%' : '<a href="'~path(route)~'" class="'~link_class~'">', '%link_end%' : '</a>'}) | raw }}
+                {% endif %}
+            {% else %}
+                {{ link_text | trans }}
+            {% endif %}
+        </label>
+    {% endspaceless %}
+{% endblock %}
