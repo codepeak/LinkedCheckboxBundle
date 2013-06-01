@@ -18,7 +18,7 @@
         "symfony/framework-bundle": ">=2.1,<2.2-dev"
     },
     "autoload": {
-        "psr-0": { "codepeak\LinkedCheckboxBundle": "" }
+        "psr-0": { "codepeak\\LinkedCheckboxBundle": "" }
     },
     "minimum-stability": "dev",
     "target-dir": "Codepeak/LinkedCheckboxBundle"
