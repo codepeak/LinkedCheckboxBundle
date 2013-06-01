@@ -10,11 +10,15 @@ This will help you create nicer and better checkboxes with links in them, for ex
 Installation
 ------------
 
-1. Install the bundle and add this to your __AppKernel.php__
+1. Add this to your composer file:
+
+```"codepeak/linked-checkbox-bundle": "dev-master"```
+
+2. Install the bundle and add this to your __AppKernel.php__
 
 ```$bundles[] = new Codepeak\LinkedCheckboxBundle\CodepeakLinkedCheckboxBundle();```
 
-2. Update your __app/config/config.yml__ file and add this
+3. Update your __app/config/config.yml__ file and add this
 
 ```
 twig:
@@ -23,7 +27,7 @@ twig:
              - 'CodepeakLinkedCheckboxBundle:Form:fields.html.twig'
 ```
 
-3. Empty the cache and add the new field to your form
+4. Empty the cache and add the new field to your form
 
 ```
 ->add('tos', new LinkedCheckboxType(), array(
