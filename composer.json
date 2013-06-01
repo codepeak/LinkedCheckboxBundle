@@ -15,7 +15,7 @@
         "php": ">=5.3.10"
     },
     "require-dev": {
-        "symfony/framework-bundle": ">=2.1,<2.2-dev"
+        "symfony/framework-bundle": ">=2.1"
     },
     "autoload": {
         "psr-0": { "codepeak\\LinkedCheckboxBundle": "" }
