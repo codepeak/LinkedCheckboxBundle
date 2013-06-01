@@ -1,5 +1,5 @@
 {
-    "name": "codepeak/LinkedCheckboxBundle",
+    "name": "codepeak/linked-checkbox-bundle",
     "type": "symfony-bundle",
     "description": "Adds support for linked text with checkboxes to Symfony2",
     "keywords": ["checkbox", "bundle"],
