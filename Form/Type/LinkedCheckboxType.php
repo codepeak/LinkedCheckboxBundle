@@ -15,7 +15,6 @@ class LinkedCheckboxType extends AbstractType
     public function buildView(FormView $view, FormInterface $form, array $options)
     {
         $view->vars = array_replace($view->vars, array(
-            #'value'   => $options['value'],
             'checked' => null !== $form->getViewData(),
             'route' => $options['route'],
             'link_text' => $options['link_text'],
@@ -31,15 +30,20 @@ class LinkedCheckboxType extends AbstractType
             'link_text' => null,
             'link_class' => null,
             'text' => null,
-            'var' => null
         ));
     }
 
+    /**
+     * {@inheritdoc}
+     */
     public function getParent()
     {
         return 'form';
     }
 
+    /**
+     * {@inheritdoc}
+     */
     public function getName()
     {
         return 'linkedcheckbox';

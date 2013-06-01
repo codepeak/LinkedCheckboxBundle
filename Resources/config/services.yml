@@ -1,7 +1,0 @@
-parameters:
-#    codepeak_linked_checkbox.example.class: Codepeak\LinkedCheckboxBundle\Example
-
-services:
-#    codepeak_linked_checkbox.example:
-#        class: %codepeak_linked_checkbox.example.class%
-#        arguments: [@service_id, "plain_value", %parameter%]
