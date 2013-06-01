@@ -12,13 +12,12 @@
         }
     ],
     "require": {
-        "php": ">=5.3.10"
-    },
-    "require-dev": {
-        "symfony/framework-bundle": ">=2.1"
+        "php": ">=5.3.10",
+        "symfony/framework-bundle": "~2.1",
+        "symfony/form": "~2.1"
     },
     "autoload": {
-        "psr-0": { "codepeak\\LinkedCheckboxBundle": "" }
+        "psr-0": { "Codepeak\\LinkedCheckboxBundle": "" }
     },
     "minimum-stability": "dev",
     "target-dir": "Codepeak/LinkedCheckboxBundle"
