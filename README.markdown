@@ -3,7 +3,7 @@ CodepeakLinkedCheckboxBundle
 
 [![Build Status](https://travis-ci.org/codepeak/LinkedCheckboxBundle.png?branch=master)](https://travis-ci.org/codepeak/LinkedCheckboxBundle)
 
-This bundle adds support to more advanced checkbox options in forms. It's developed and tested on Symfony 2.1.
+This bundle adds support to more advanced checkbox options in forms. It's developed and tested on Symfony 2.2.*, 2.3.0-RC1 and 2.3.0.
 
 This will help you create nicer and better checkboxes with links in them, for example "I agree to the terms of service"-type of checkbox.
 
